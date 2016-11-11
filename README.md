@@ -14,7 +14,22 @@ After setting up all requirements download [CLCreateProject.jar][CL-file]. Refer
 ```cmd
 java -jar CLCreateProject.jar <Oganism abrivation e.g. hsa> <Destination path> <RData file path> <metadata.tsv path>
 ```
-This will create all the required file in the destination folder. After this you need to create a repository on git and push this folder to it. Then follow the adbio guide to view you data.(link coming soon)
+This will create all the required file in the destination folder. You will need to create a README.md file in this directory, use this template so the information in it will be parse properly and displayed correctly.
+```markdown
+<!--adbio-title-->
+<provide a title for your project>
+<!--adbio-description-->
+<provide a description for your project>
+<!--adbio-funding-->
+<!--adbio-publication-->
+<!--adbio-organism-->
+<provide an organism with this format>
+Organism [<name to display in readme file e.g. Homo sapiens (human)>](<link to information about organism e.g. http://www.genome.jp/kegg-bin/show_organism?org=hsa>)
+<!------------------------------------------------------------------------------>
+<!--you can add any other information here-->
+
+```
+Next you need to create a repository on git and push this folder to it. You can also add a png file called icon.png to this repository, this will be displayed in the information for project. Then refer the [Adbio repository](https://github.com/ActiveDataBio/Adbio) to install the visual analytic tool to view your data.
 
 ##<a name="prepare"></a> How to prepare for my data
 In order to create a new ADBio project using your own data, you need to prepare these two files.
@@ -27,16 +42,6 @@ Please refer to [this repository](https://github.com/ActiveDataBio/adbio_tutoria
 
 ### How to use a meta data file.
 please go to [here](https://github.com/ActiveDataBio/adbio_tutorial/blob/master/tutorial_2_metadata.ipynb) and refer to the tutorial.
-
-<!--
-## How to upload my data
-with some pictures
-* Go to 'myproject' page
-* Click the 'Create' tab
-How to fill in the forms
-How to assign tests
-Bug reports
--->
 
 [adbio-logo]:https://adbio.pnnl.gov/bioviz/images/activeData-biglogo.png
 [CL-file]:https://github.com/ActiveDataBio/CL_Create_Project/raw/master/CLCreateProject/src/target/CLCreateProject.jar "CLCreateProject.jar"
