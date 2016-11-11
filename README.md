@@ -9,7 +9,7 @@ We welcome contibutions to this repository. Please refer to the [Contributing Gu
 * Java 8
 * R
 
-After setting up all requirements download ![CLCreateProject.jar][CL-file]. Refer to [How to prepare for my data](#prepare) for instructions on how to... well prepare your data. When your data is prepared run the CLCreateProject.jar file by using
+After setting up all requirements download [CLCreateProject.jar][CL-file]. Refer to [How to prepare for my data](#prepare) for instructions on how to... well prepare your data. When your data is prepared run the CLCreateProject.jar file by using
 ```cmd
 java -jar CLCreateProject.jar <Oganism abrivation e.g. hsa> <Destination path> <RData file path> <metadata.tsv path>
 ```
