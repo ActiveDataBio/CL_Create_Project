@@ -1,7 +1,7 @@
 Thanks for wanting to contibute to this repository. We are using the Github Issues for tracking purposes. This project was created using java with some R scripts.
 
 ##What to know
-Before you get started contributing, please check the requirements and check the issues to be sure the bug or feature hasn't already been reported.
+Before you get started contributing, please check the requirements and check the issues to be sure the bug or feature hasn't already been reported. Refer to [Style Guide](#styleguide) on how to format your code.
 
 ##Building
 ###Requirements
@@ -16,3 +16,12 @@ Use the Github Issues to report bugs. In the title add "[BUG]" to the beginning 
 
 ##Features
 To suggest features use Github Issues. In the title add "[feature]" to the beginning and, should it should be breif yet meaningful. In the comment please describe the feature, steps that the feauture would produce, and images if possible.
+
+##Pull requuest
+When making a pull request in the title add issue number(e.g. #number). In the comment describe the work complete. 
+
+##Git commits
+Make "good" git commits. Use present tense(e.g. fix not fixed or fixes, add not added or adds).
+
+##<a name="styleguide"></a>Style Guide
+Java use [googleStyleGuide](https://google.github.io/styleguide/javaguide.html)
