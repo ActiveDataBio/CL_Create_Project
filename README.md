@@ -3,7 +3,7 @@
 
 Command line program that generates the files for an Adbio project repository
 ## Want to Contribute?
-We welcome contibutions to this repository. Please refer to the [Contibuting Guide](CONTIBUTING.md).
+We welcome contibutions to this repository. Please refer to the [Contibuting Guide](CONTRIBUTING.md).
 ## Using this program
 ###Requirements
 * Java 8
