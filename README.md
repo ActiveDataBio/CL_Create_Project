@@ -1,8 +1,10 @@
 # CL_Create_Project
 ![ADBio][adbio-logo]
-Command line program that generates the files for an Adbio project repository
 
-## Using
+Command line program that generates the files for an Adbio project repository
+## Want to Contribute?
+We welcome contibutions to this repository. Please refer to the [Contibuting Guide](CONTIBUTING.md).
+## Using this program
 ###Requirements
 * Java 8
 * R
