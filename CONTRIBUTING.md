@@ -1,3 +1,4 @@
+#Contributing
 Thanks for wanting to contribute to this repository. We are using the Github Issues for tracking purposes. This project was created using Java 8 with some R scripts.
 
 ##What to know
