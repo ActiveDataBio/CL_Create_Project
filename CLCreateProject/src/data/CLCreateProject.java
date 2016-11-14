@@ -19,7 +19,7 @@ import java.util.Arrays;
 
 public class CLCreateProject {
 
-  private final String baseUrl = "http://localhost:8080";//this needs to be changed when new rest apis are deployed to the server
+  private final String baseUrl = "https://adbio.pnnl.gov";//this needs to be changed when new rest apis are deployed to the server
   private static String osName = System.getProperty("os.name");
   private static final String RSCRIPT_COMMAND =
       (osName.contains("Windows")) ? "C:\\Program Files\\R\\R-3.2.1\\bin\\Rscript.exe" : "Rscript";
